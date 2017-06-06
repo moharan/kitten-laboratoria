@@ -1,23 +1,23 @@
 @media only screen and (min-width: 1px) and (max-width: 499px) {
-    .elemento {
-        background-image: url(../img/maxresdefault.jpg);
-        background-size:contain;
-        background-repeat: no-repeat;
+    body {
+        background: url(../img/maxresdefault.jpg) no-repeat center fixed;
+        background-size: cover;
+
 
     }
 }
 @media only screen and (min-width: 500px) and (max-width: 999px) {
-    .elemento {
-        background-image: url(../img/landscape.jpg);
-        background-size:contain;
-        background-repeat: no-repeat;
+    body {
+        background: url(../img/dawn.png) no-repeat center fixed;
+        background-size: cover;
+
+
     }
 }
 @media only screen and (min-width: 1000px) {
-    .elemento {
-        background-image: url(../img/dawn.png);
-        background-size:contain;
-        background-repeat: no-repeat;
+    body {
+        background: url(../img/landscape.jpg) no-repeat center fixed;
+        background-size: cover;
     }
 }
 

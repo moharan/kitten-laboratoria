@@ -1,3 +1,19 @@
 body {
 	background-color: black;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.flex-container{
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+section.flex-container{
+	/*justify-content: center;
+	align-items:center;*/
+}
+
+.elemento {
+
 }
